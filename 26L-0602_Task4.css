@@ -1,0 +1,106 @@
+body {
+    background-image: url("background.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #d1e7e5;
+    font-family: 'Century Gothic', 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.journal-wrapper {
+    background-color: #ffffff;
+    width: 900px;
+    margin: 0 auto;
+    padding: 25px;
+    display: flow-root;
+}
+
+.header-box {
+    background-color: #80deea;
+    padding: 20px 25px;
+    margin-bottom: 25px;
+}
+
+.header-title {
+    color: #00838f;
+    font-weight: normal;
+    font-size: 36px;
+    text-align: right;
+    margin: 0;
+}
+
+.header-sub {
+    color: #00838f;
+    text-align: right;
+    font-size: 18px;
+    margin: 5px 0 0 0;
+}
+
+.sidebar {
+    float: left;
+    width: 25%;
+    background-color: #26a69a;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid cyan;
+}
+
+.sidebar h3 {
+    color: #80deea;
+    font-size: 32px;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.sidebar ul {
+    color: #ff5252;
+    padding-left: 20px;
+    margin: 0;
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+.mainc {
+    float: right;
+    width: 70%;
+}
+
+.entry-box {
+    border: 3px solid #b2dfdb;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 25px;
+    display: flow-root;
+}
+
+.entry-title {
+    color: #00838f;
+    font-size: 26px;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.dotted-date {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: #00c853;
+    text-decoration-thickness: 2px;
+}
+
+.entry-box p {
+    color: #78909c;
+    line-height: 1.6;
+    margin: 0;
+    font-size: 15px;
+}
+
+.entry-box img {
+    float: right;
+    width: 160px;
+    margin: 0 0 10px 20px;
+}
